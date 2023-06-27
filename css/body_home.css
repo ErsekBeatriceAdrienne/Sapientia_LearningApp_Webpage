@@ -1,0 +1,23 @@
+body {
+    resize: both;
+    margin:0;
+    /*background-color: black; */
+    font-family:Arial;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+image {
+    max-width: 50px;
+    max-height: 100px;
+}
+
+.sapientia_text {
+    padding-right: 20px;
+}

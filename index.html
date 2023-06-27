@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Sapientia Informatics </title>
+  <link rel="stylesheet" href="css/navigation_bar.css">
+  <link rel="stylesheet" href="css/body_home.css">
+  <link rel="stylesheet" href="css/sapientia_text.css">
+  <link rel="stylesheet" href="css/home_page_text.css">
+</head>
+
+<body>
+<div class="navigation" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="website/information.html">Information</a>
+  <div class="dropdown">
+    <button class="download_button">Download
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-platforms">
+      <a class="pc_1" href="website/pc.html">PC</a>
+      <a class="laptop_2" href="website/laptop.html">Laptop</a>
+      <a class="mobile_3" href="website/mobile.html">Mobile</a>
+    </div>
+  </div>
+  <a href="website/sapientia_emte.html" ; style="float: right">About Sapientia</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="container">
+  <div class="sapientia_text" style="display: inline-block; vertical-align: center" class="col-md-12 text-center">
+    <h3 class="animate-charcter" style="text-align: left; font-size: 600%;">Sapientia</h3>
+  </div>
+  <div style="display: inline-block; vertical-align: center">
+    <img src="./../images/sapi_logo.png" width="50" height="100">
+  </div>
+</div>
+
+<div class="home_page_text" style="align-content: center;">
+  <h1 style="font-family: 'JetBrains Mono'">
+    <span style="color: #95F985">Learn</span>
+    <span style="color: #4DED30">informatics</span>
+    <span style="color: #85FF00">easily</span>
+    <span style="color: #00AB08">with</span>
+    <span style="color: #26D701">an</span>
+    <span style="color: #95F985">application</span>
+    <span style="color: #85FF00">built</span>
+    <span style="color: #00AB08">for</span>
+    <span style="color: #4DED30">you</span>
+    <span style="color: #95F985">by</span>
+    <span style="color: #4DED30">a</span>
+    <span style="color: #85FF00">student</span>
+    <span style="color: #00AB08">from</span>
+    <span style="color: #26D701">Sapientia</span>
+    <span style="color: #95F985">in</span>
+    <span style="color: #85FF00">order</span>
+    <span style="color: #00AB08">to</span>
+    <span style="color: #4DED30">help</span>
+    <span style="color: #95F985">you!</span>
+  </h1>
+</div>
+
+<!-- JAVASCRIPT -->
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</body>
+</html>
